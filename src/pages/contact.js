@@ -53,15 +53,23 @@ export default class Contact extends React.Component {
             </label>
           </p>
           <p>
+            
             <label>
               Your name:<br />
               <input type="text" name="name" onChange={this.handleChange} />
             </label>
           </p>
+          
           <p>
             <label>
               Your email:<br />
               <input type="email" name="email" onChange={this.handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
+              I love pie:<br />
+              <input type="name" name="27" onChange={this.handleChange} />
             </label>
           </p>
           <p>
